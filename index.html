@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>            
+
+
+    <link rel = "stylesheet" href = "css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>  
+            <a href="#services">Services</a> 
+            <a href="#portfolio">Portfolio</a> 
+            <a href="#contact">Contact</a> 
+            
+        </nav>
+    </header> 
+    
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Arul Jeeva Bharathi</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Driven by code and creativity, I build user-friendly web applications that make a difference.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV></a>
+        </div>
+        <div class="home-img">
+            <img src="images/profile.jpg" alt="">
+        </div>
+
+
+     </section>
+
+
+        <section class ="about" id = "about">
+            <div class ="about-img">
+                <img src = "images/profile.jpg" alt="">
+            </div>
+
+             <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3>Full stack developer</h3>
+                <p>
+                        • Full Stack Developer with hands-on experience in the MERN stack (MongoDB, Express.js, React.js, Node.js).<br>
+                        • Passionate about building responsive, user-friendly web applications.<br>
+                        • Skilled in RESTful APIs, database design, and state management.<br>
+                        • Strong problem-solving mindset with a focus on clean, maintainable code.<br>
+                        • Continuously learning and staying updated with modern web technologies.
+                    </p>
+
+                    <a href="#" class = "btn">Read More</a>
+             </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">Our <span>Services</span></h2>
+            <div class="services-container">
+        
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>
+                        Building responsive and high-performance websites using modern technologies like HTML, CSS, JavaScript, and React.js.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+        
+                <div class="services-box">
+                    <i class='bx bx-server'></i>
+                    <h3>Backend Development</h3>
+                    <p>
+                        Developing robust backend systems with Node.js and Express, integrating APIs, and managing databases like MongoDB.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+        
+                <div class="services-box">
+                    <i class='bx bx-mobile-alt'></i>
+                    <h3>Full Stack Solutions</h3>
+                    <p>
+                        End-to-end application development including both client-side and server-side logic, deployment, and performance tuning.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+        
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+              <h2 class="heading">Latest <span>Project</span></h2>
+              <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="images/portfolio1.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4> Mini E-commerce Web Application built using the MERN Stack</h4>
+                        <p>This project is a Mini E-commerce Website developed using the MERN Stack. It includes features like a product listing page, detailed product views, and a basic cart system. All product and cart data are stored and managed through MongoDB, providing a dynamic and responsive shopping interface. This project demonstrates my ability to connect a front-end React application with a Node.js and Express backend, and interact with a real database.</p>
+                        <!-- <a href=""><i class='bx bx-link-external'></i> </a> -->
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/portfolio2.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4> Personal portfolio with responsive output </h4>
+                        <p>This is a personal portfolio website designed and developed to showcase my skills and projects. Built using HTML, CSS, and JavaScript, it features a responsive layout, interactive navigation, and smooth scrolling. The design emphasizes simplicity and clarity, helping visitors easily explore my work and contact me.</p>
+                        <!-- <a href=""><i class='bx bx-link-external'></i> </a> -->
+                    </div>
+                </div>
+              </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Messagw" class="btn">
+            </form>            
+        </section>
+        
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy: 2024 by Jeeva | All Rights Reserved</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script src="js/script.js"></script>
+
+
+
+</body>
+</html>
