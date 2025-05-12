@@ -56,7 +56,4 @@ const typed = new Typed('.multiple-text', {
 
 });
 
-  function showMessage() {
-    alert("Thank you for your message!");
-    return false; 
-  }
+ 
